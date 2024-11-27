@@ -90,8 +90,9 @@ IMAGEN
 4. Circuitos de entrada y salida
 ### Parte 3
 1. Oscilador en anillo
+![](https://github.com/Miller1999/Lab-1-TTL-vs-CMOS/blob/main/Oscilador%20general.jpg)
    - Caracteristicas
-2. Anillo de 3 compuertas
+3. Anillo de 3 compuertas
    - Simulación
    - Mediciones
      
