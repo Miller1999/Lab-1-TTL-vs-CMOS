@@ -57,7 +57,8 @@
    - Mediciones
 
 ## Referencias
-* [TTL 74LS04 Datasheet]([https://github.com/johnnycubides/qucs-tutorial-examples](https://www.alldatasheet.com/datasheet-pdf/view/5638/MOTOROLA/74LS04.html))
-* [CMOS CD4069 Datasheet]([https://github.com/johnnycubides/qucs-tutorial-examples](https://www.alldatasheet.com/datasheet-pdf/view/50860/FAIRCHILD/CD4069.html))
+
+  * [TTL 74LS04 Datasheet](https://www.alldatasheet.com/datasheet-pdf/view/5638/MOTOROLA/74LS04.html)
+  * [CMOS CD4069 Datasheet](https://www.alldatasheet.com/datasheet-pdf/view/50860/FAIRCHILD/CD4069.html)
   
 
