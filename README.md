@@ -40,7 +40,7 @@
 6. Tiempos
    - TTL 74LS04
    - CMOS CD4069
-### Parte 2 11
+### Parte 2 
 1. Fan-in y Fan-out
    - TTL 74LS04
    - CMOS CD4069
@@ -55,3 +55,9 @@
 3. Anillo de 5 compuertas
    - Simulación
    - Mediciones
+
+## Referencias
+* [TTL 74LS04 Datasheet]([https://github.com/johnnycubides/qucs-tutorial-examples](https://www.alldatasheet.com/datasheet-pdf/view/5638/MOTOROLA/74LS04.html))
+* [CMOS CD4069 Datasheet]([https://github.com/johnnycubides/qucs-tutorial-examples](https://www.alldatasheet.com/datasheet-pdf/view/50860/FAIRCHILD/CD4069.html))
+  
+
