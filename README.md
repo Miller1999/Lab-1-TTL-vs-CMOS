@@ -40,7 +40,7 @@
 6. Tiempos
    - TTL 74LS04
    - CMOS CD4069
-### Parte 2
+### Parte 2 11
 1. Fan-in y Fan-out
    - TTL 74LS04
    - CMOS CD4069
