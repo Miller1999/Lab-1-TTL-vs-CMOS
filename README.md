@@ -114,12 +114,16 @@ la explicacion en el caso del CMOS es igual a la del TTL, y comparando la señal
 
 1. Fan-in y Fan-out
 
-   Para hallar el Fan-in se realiza el siguiente procedimiento:
-   Para hallar el Fan-out se realiza el siguiente procedimiento:
-
+   Para hallar el Fan-out se realiza el procedimiento descrito en el marco teórico:
    - TTL 74LS04
+     
+     ![](https://github.com/Miller1999/Lab-1-TTL-vs-CMOS/blob/main/FAN%20OUT%20TTL.png)
+     
    - CMOS CD4069
-
+     Para el CMOS se halla un Fan-out muy alto, esto se debe a que en su tecnología las corrientes de entrada son muy bajas (en el orden los pico o de los microamperios), por lo cual a una sola salida se puede conectar muchas entradas
+     
+     ![](https://github.com/Miller1999/Lab-1-TTL-vs-CMOS/blob/main/faN%20OUT%20CD4069.png)
+     
 2. Disipación de potencia
 3. Circuitos de entrada y salida
 
