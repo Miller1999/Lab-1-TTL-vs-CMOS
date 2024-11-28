@@ -35,11 +35,15 @@
 
 ### Inversor
 ### Fan-in y Fan-out
+
 Estos parámetros son importantes respecto al diseño de circuitos digitales ya que nos brindan información sobre la cantidad maxima de conexiones que podemos realizar a cada compuerta.
+
 El fan-in representa la máxima cantidad de entradas que puede manejar la compuerta. En el caso de los inversores esta suele ser 1
+
 El fan-out representa la máxima cantidad de entradas que puede alimentar la salida de la compuerta sin degradar las señales. Los TTL tienen un Fan-out estandar de 10, mientras que los CMOS tienen un estandar de 400 dado su bajo consumo de corriente en la entrada. Se calcula de la siguiete manera:
 
 ![](https://github.com/Miller1999/Lab-1-TTL-vs-CMOS/blob/main/assets/fan%20out.png)
+
 ### Tiempo de subida y bajada
 ### Anillo
 
