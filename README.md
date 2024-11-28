@@ -161,6 +161,7 @@ la explicacion en el caso del CMOS es igual a la del TTL, y comparando la señal
 
   La mayor diferencia entre los dos anillos es la frecuencia, ya que esto depende del numero de compuertas que se usen, en este caso se evidencia que el anillo de 5 compuertas tiene una amplitud mas grande debido a la suma de los desfases de las compuertas, por esto tiene una frecuencia mas baja.
   Esto se puede observar en la formula:
+  
    ![](/assets/95ae83e3e3cca8b0607b2eb3377f3a46.png)
 
    Siendo n el numero de compuertas usadas en nuestro anillo. Por lo cual es lógico esperar que la frecuencia del anilo de 5 compuertas sea menor al anillo de 3 compuertas.
