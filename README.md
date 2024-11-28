@@ -84,7 +84,7 @@ Para el TTL se maneja un circuito más primitivo pero bajo el mismo concepto que
 
 - Explicación y comparación
 
-En escencia la compuerta NOT invierte la señal volviendo los 0 a 1 u viceversa. Comparando la señal de entrada y de salida se demuestra lo anterior explicado, y al comparar la simulacion con la prueba real no hay una variación considerable, ya que ambas muestran los mismos resultados.
+En escencia la compuerta NOT invierte la señal volviendo los 0 a 1 y viceversa. Comparando la señal de entrada y de salida se demuestra lo anterior explicado, y al comparar la simulacion con la prueba real no hay una variación considerable, ya que ambas muestran los mismos resultados.
 
 - CMOS CD4069
 
