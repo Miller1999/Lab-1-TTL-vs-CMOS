@@ -60,25 +60,23 @@
 
 - TTL 74LS04
 Para el TTL se maneja un circuito más primitivo pero bajo el mismo concepto que el CMOS, en este solo se emplea un transistor el cual cumple la función de abrirse o cerrarse dependiendo de el 0 o el 1 lógico que tendremos a la entrada, invirtiendo la salida.
-<div style="display:flex; justify-content:center; align-items:center;">
-   <img src="/assets/TTLEquivalente.png" style=""/>
-</div>
+
+![](/assets/TTLEquivalente.png)
 
 - CMOS CD4069
   La palabra CMOS viene de complementary metal oxide semicondutor, lo que quiere decir que cada compuerta esta compuesta de dos transistores, un tipo n y un tipo p, los cuales tendrán la función de compuertas logicas. Dependiendo de la entrada, alguno de los dos transistores se polarizará y el otro se abrirá, lo que causa que se invierta el 0 o el 1 lógico a la entrada.
-
-<div style="display:flex; justify-content:center; align-items:center;">
-   <img src="/assets/CMOSEQUIVALENTE.png" style=""/>
-</div>
+  
+   ![](/assets/CMOSEQUIVALENTE.png)
 
 3. Señal cuadrada de 1kHz (Simulación vs Real)
 
 - TTL 74LS04
   - Simulación
+    
     ![](/assets/Simulaciones/74LS.png)
   - Real
-
-![](/assets/74LS04/F0000TEK.BMP)
+    
+    ![](/assets/74LS04/F0000TEK.BMP)
 
 EXPLICACION DE LA COMPARATIVA Y ENTRADA VS SALIDA SIMULADA
 
@@ -121,23 +119,32 @@ EXPLICACION DE LA COMPARATIVA Y ENTRADA VS SALIDA SIMULADA
 ### Parte 3
 
 1. Oscilador en anillo
+   
    ![](/assets/Osciladorgeneral.jpg)
    - Caracteristicas
-1. Anillo de 3 compuertas
+2. Anillo de 3 compuertas
+   
    Con este circuito:
+   
    ![](/assets/Simulaciones/anillo3.png)
    - Simulación
+     
      ![](/assets/Simulaciones/anillo3S.png)
    - Mediciones
+     
      ![](/assets/Anillo3/F0014TEK.BMP)
-1. Anillo de 5 compuertas
+4. Anillo de 5 compuertas
+   
    Con este circuito:
+   
    ![](/assets/Simulaciones/anillo5.png)
    - Simulación
+     
      ![](/assets/Simulaciones/anillo5S.png)
    - Mediciones
+     
      ![](/assets/Anillo5/F0013TEK.BMP)
-1. Comparación anillo de 3 compuertas vs anillo de 5 compuertas
+6. Comparación anillo de 3 compuertas vs anillo de 5 compuertas
 
 ## Referencias
 
