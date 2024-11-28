@@ -4,7 +4,7 @@
 
 - Miller Javier Arias Quintero
 - Juan Pablo Ruiz Sabogal
-- Santiago N
+- Daniel Santiago Navarro Gil
 
 ## Tabla de contenidos
 
