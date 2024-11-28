@@ -75,7 +75,9 @@ Para el TTL se maneja un circuito más primitivo pero bajo el mismo concepto que
 
 - TTL 74LS04
   - Simulación
+    
     ![](/assets/Simulaciones/74LS.png)
+    
   - Real
 
 ![](/assets/74LS04/F0000TEK.BMP)
@@ -121,16 +123,24 @@ EXPLICACION DE LA COMPARATIVA Y ENTRADA VS SALIDA SIMULADA
 ### Parte 3
 
 1. Oscilador en anillo
+   
    ![](/assets/Osciladorgeneral.jpg)
+   
    - Caracteristicas
-2. Anillo de 3 compuertas
+3. Anillo de 3 compuertas
    Con este circuito:
+   
    ![](/assets/Simulaciones/anillo3.png)
+   
    - Simulación
+   
      ![](/assets/Simulaciones/anillo3S.png)
+     
    - Mediciones
+     
      ![](/assets/Anillo3/F0014TEK.BMP)
-3. Anillo de 5 compuertas
+     
+5. Anillo de 5 compuertas
    Con este circuito:
 
    ![](/assets/Simulaciones/anillo5.png)
@@ -143,7 +153,7 @@ EXPLICACION DE LA COMPARATIVA Y ENTRADA VS SALIDA SIMULADA
 
      ![](/assets/Anillo5/F0013TEK.BMP)
 
-4. Comparación anillo de 3 compuertas vs anillo de 5 compuertas
+6. Comparación anillo de 3 compuertas vs anillo de 5 compuertas
 
 ## Referencias
 
