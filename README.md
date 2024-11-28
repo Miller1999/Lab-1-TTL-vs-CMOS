@@ -47,6 +47,9 @@ El fan-out representa la máxima cantidad de entradas que puede alimentar la sal
 ### Tiempo de subida y bajada
 ### Anillo
 
+Un anillo lógico u oscilador de anillo es un circuito en el cual conectamos varias compuertas de manera impar (es decir, 3,5,7,etc) y conectamos la salida de la última compuerta con la entrada de la primer compuerta que inicia el anillo, por medio de este podemos analizar tiempo de propagación y frecuencia de oscilación.
+
+![](https://github.com/Miller1999/Lab-1-TTL-vs-CMOS/blob/main/assets/anillo%20formula.png)
 ## Procedimiento
 
 ### Parte 1
