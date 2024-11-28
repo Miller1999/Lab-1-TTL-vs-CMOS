@@ -13,6 +13,7 @@
   - [Tabla de contenidos](#tabla-de-contenidos)
   - [Objetivo](#objetivo)
   - [Recursos](#recursos)
+  - [Marco Teórico](#marco-teorico)
   - [Procedimiento](#procedimiento)
     - [Parte 1](#parte-1)
     - [Parte 2](#parte-2)
