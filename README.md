@@ -82,7 +82,9 @@ Para el TTL se maneja un circuito más primitivo pero bajo el mismo concepto que
 
 ![](/assets/74LS04/F0000TEK.BMP)
 
-EXPLICACION DE LA COMPARATIVA Y ENTRADA VS SALIDA SIMULADA
+- Explicación y comparación
+
+En escencia la compuerta NOT invierte la señal volviendo los 0 a 1 u viceversa. Comparando la señal de entrada y de salida se demuestra lo anterior explicado, y al comparar la simulacion con la prueba real no hay una variación considerable, ya que ambas muestran los mismos resultados.
 
 - CMOS CD4069
 
@@ -94,8 +96,9 @@ EXPLICACION DE LA COMPARATIVA Y ENTRADA VS SALIDA SIMULADA
 
 ![](/assets/CD4069/F0001TEK.BMP)
 
-EXPLICACION DE LA COMPARATIVA Y ENTRADA VS SALIDA SIMULADA
+- Explicación y comparación
 
+la explicacion en el caso del CMOS es igual a la del TTL, y comparando la señal de entrada y de salida se demuestra lo anterior explicado, y al comparar la simulacion con la prueba real no hay una variación considerable, ya que ambas muestran los mismos resultados.
 4. Tiempos
 
    Dado que los tiempos de subida y bajada no podian percibirse aún aumentando la escala en el osciloscopio, se usaron los cursores del mismo para tomar dichas medidas.
@@ -123,6 +126,7 @@ EXPLICACION DE LA COMPARATIVA Y ENTRADA VS SALIDA SIMULADA
 ### Parte 3
 
 1. Oscilador en anillo
+   Se hace conectando en serie varias compuertas NOT, donde cada compuerta NOT invierte la señal que recibe, generando un retardo debido al tiempo de propagación de cada compuerta. Luego, la salida de la última compuerta se conecta a la entrada de la primera, creando un bucle continuo.
    
    ![](/assets/Osciladorgeneral.jpg)
    
@@ -154,6 +158,8 @@ EXPLICACION DE LA COMPARATIVA Y ENTRADA VS SALIDA SIMULADA
      ![](/assets/Anillo5/F0013TEK.BMP)
 
 6. Comparación anillo de 3 compuertas vs anillo de 5 compuertas
+
+  La mayor diferencia entre los dos anillos es la frecuencia, ya que esto depende del numero de compuertas que se usen, en este caso se evidencia que el anillo de 5 compuertas tiene una amplitud mas grande debido a la suma de los desfases de las compuertas, por esto tiene una frecuencia mas baja.
 
 ## Referencias
 
