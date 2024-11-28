@@ -35,6 +35,12 @@
 ## Marco Teórico
 
 ### Inversor
+
+Es un circuito que realiza la función logica NOT, lo que significa que invierte el 0 o el 1 lógico de la entrada, si la entrada es un 1 lógico, la salida es un 0, y viceversa.
+
+![](https://github.com/Miller1999/Lab-1-TTL-vs-CMOS/blob/main/assets/NOT.png)
+
+Los circuitos integrados que estamos manejando están compuestos de varias compuertas logicas NOT. Para el caso del TTL (Transistor Transistor-Logic) 74LS04 es el integrado mas anticuado que estamos manejando ya que este usa el tipo de transistor BJT, logrando altas velocidades de conmutación. Por otro lado, el CMOS (Complementary Metal-Oxide-Semiconductor) usa MOSFET's para realizar la negación, este tiene un consumo considerablemente mas bajo y opera en rangos más amplios de voltaje.
 ### Fan-in y Fan-out
 
 Estos parámetros son importantes respecto al diseño de circuitos digitales ya que nos brindan información sobre la cantidad maxima de conexiones que podemos realizar a cada compuerta.
@@ -46,7 +52,10 @@ El fan-out representa la máxima cantidad de entradas que puede alimentar la sal
 ![](https://github.com/Miller1999/Lab-1-TTL-vs-CMOS/blob/main/assets/fan%20out.png)
 
 ### Tiempo de subida y bajada
-### Anillo
+
+Los tiempos de subida y bajada hacen referencia a la rapidez con la que una señal (en este caso cuadrada) cambia entre estados logicos, siendo el tiempo de subida el tiempo que tarda de pasar de un valor bajo (10%) a un valor alto (90%), y el de bajada de un valor alto (90%) a un valor bajo (10%). Experiemntalmente se puede medir directamente desde el osciloscopio. 
+
+### Anillo Lógico
 
 Un anillo lógico u oscilador de anillo es un circuito en el cual conectamos varias compuertas de manera impar (es decir, 3,5,7,etc) y conectamos la salida de la última compuerta con la entrada de la primer compuerta que inicia el anillo, por medio de este podemos analizar tiempo de propagación y frecuencia de oscilación.
 
