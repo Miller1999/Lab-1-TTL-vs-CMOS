@@ -128,6 +128,13 @@ En escencia la compuerta NOT invierte la señal volviendo los 0 a 1 y viceversa.
 - Explicación y comparación
 
 la explicacion en el caso del CMOS es igual a la del TTL, y comparando la señal de entrada y de salida se demuestra lo anterior explicado, y al comparar la simulacion con la prueba real no hay una variación considerable, ya que ambas muestran los mismos resultados.
+   |                              | TTL 74LS04 | CMOS CD4069 |
+   | :--------------------------: | :--------: | :---------: |
+   |  **$V_{IH}$**                |   - 0.2 V  |    - 0.2 V    |
+   |  **$V_{IL}$**               |   5.2 V    |    5.2 V   |
+   |  **$V_{OH}$**                |   0.2 V    |  0.2 V   |
+   |  **$V_{OL}$**                 |  4.8 V     |  4.8 V   |
+
 4. Tiempos
 
    Dado que los tiempos de subida y bajada no podian percibirse aún aumentando la escala en el osciloscopio, se usaron los cursores del mismo para tomar dichas medidas.
@@ -157,8 +164,14 @@ la explicacion en el caso del CMOS es igual a la del TTL, y comparando la señal
   
      Igualmente para CMOS el Fan-in = 1.
      
-1. Disipación de potencia
-2. Circuitos de entrada y salida
+2. Disipación de potencia
+  - TTL 74LS04
+    
+      Con valores de $I_{CC} = 2mA$ y $V_{DD} = 5V$, obtenemos una potencia estatica de $10mW$
+        
+  - CMOS CD4069
+
+      Usando una carga de 15pF, obtenemos una potencia dinamica de $0.375mW$, siendo esta la dominante no es necesario calcular la potencia estatica
 
 ### Parte 3
 
